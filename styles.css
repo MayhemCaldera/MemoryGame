@@ -1,10 +1,32 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 3em;
+}
+
+.head {
+  margin: 2em;
+  font-size: 2em;
+}
+
 .grid {
   display: flex;
   flex-wrap: wrap;
-  height: 300px;
-  width: 400px;
+  height: 600px;
+  width: 800px;
 }
 
 #btn {
   margin-bottom: 10px;
+  font-size: 1em;
+}
+
+img {
+  height: 200px;
+  width: 200px;
 }
